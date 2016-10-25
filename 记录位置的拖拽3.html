@@ -1,0 +1,57 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	*{ padding:0; margin:0;}
+	div{ width:200px; height:200px; background:red; position:absolute; top:0; left:0;}
+	
+</style>
+
+</head>
+
+<body>
+	<div></div>
+    <script>
+    	var oBox=document.querySelector('div');
+		
+		if(localStorage.pos){
+			var json=JSON.parse(localStorage.pos);
+			
+			oBox.style.left=json.x+'px';
+			oBox.style.top=json.y+'px';	
+		}
+		
+		var x=0;
+		var y=0;
+		oBox.onmousedown=function(ev){
+			var disX=ev.clientX-oBox.offsetLeft;
+			var disY=ev.clientY-oBox.offsetTop;
+			document.onmousemove=function(ev){
+				x=ev.clientX-disX;
+				y=ev.clientY-disY;
+				oBox.style.left=x+'px';
+				oBox.style.top=y+'px';	
+			}	
+			document.onmouseup=function(){
+				document.onmousemove=null;
+				document.onmouseup=null;
+				var json={x:x,y:y};
+				localStorage.pos=JSON.stringify(json);
+			}
+			return false;
+		}
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
