@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.box{ font-family:'微软雅黑'; width:929px;height:5172px; margin:auto;}
+.h-head{height:36px; border-bottom:1px solid #dfdfdf;}
+.h-concent-1{font-size:11px;color:#8c8c8c; line-height:12px;padding-right:15px; padding-left:12px;border-right:1px solid #8c8c8c; height:10px;}
+.h-concent{padding-top:15px;}
+.h-concent a:hover{color:#F60;}
+.h-head2{width:929px;height:111px;  margin:auto;}
+.s-e-1{ display:block; padding-top:24px;font-size:12px;color:#af9d8c;}
+.s-e{ margin-top:55px;}
+.logo{padding-top:25px;}
+.h-box{width:929px;height:642px; border-left:1px solid #ccc;}
+.h-l{width:246px; height:592px;border-right:1px solid #ccc; }
+.h-t{width:247px;height:50px; background:#ff4a00;}
+.wen-1{font-size:18px;color:#ffffff; line-height:50px;padding-left:19px;}
+.left-1{height:73px;border-bottom:1px solid #ccc;}
+.h-right{width:682px;height:50px;background:#404144;}
+.h-right a{font-size:15px;color:#ffffff; font-family:'微软雅黑'; line-height:50px;padding-right:22px;}
+.h-right a:hover{color:#F60;}
+.left-1 .left-top{font-size:12px;color:#ff4a00; padding-top:19px; padding-left:20px;padding-bottom:10px;}
+.left-1 a{font-size:13px;padding-top:10px; font-family:'微软雅黑';}
+.left-top1{padding-left:20px;}
+a:hover{color:#F60;}
+.hong-1{width:227px;height:170px; border-right:1px solid #ccc;}
+.hong-t{width:681px;height:170px; border:1px solid #ccc;border-left:0; background:#f3f3f3;}
+.hong-2{font-size:16px;color:#000; font-weight:bold;padding-top:23px; padding-left:13px;}
+.hong-3{font-size:12px;color:#6d6d6d; padding-top:8px;  padding-left:35px;}
+.hong-4{padding-top:6px;padding-left:41px;}
+.mix{ width:929px;height:60px; }
+.mix-1,.xip-2{font-size:18px;color:#333333; line-height:60px;}
+.mix-2{font-size:12px;color:#6d6d6d; padding-left:10px;}
+.mix-3{ margin-top:30px;}
+.dp-con{width:929px;height:309px;border:1px solid #ccc;}
+.shang-1{width:929px;height:929px;border:1px solid #ccc; overflow:hidden;}
+.shang-2{width:309px;height:1615px;border-left:1px solid #ccc;}
+.shang-4{height:309px;border-bottom:1px solid #ccc;}
+.home-1{height:619px;border:1px solid #ccc;}
+.home-2{width:619px;height:619px;border-right:1px solid #ccc;}
+.home-3{width:307px;height:619px; background:#9FF;}
+.home-4{width:619px;height:309px; border-bottom:1px solid #ccc;}
+.home-5{width:619px;height:309px; }
+.home-6{width:309px;height:309px;  border-right:1px solid #ccc;}
+.rp-1{height:410px;border:1px solid #ccc;}
+.rp-2{width:307px;height:410px;border-right:1px solid #ccc; }
+.rp-5{ font-size:12px;color:#968181; background:#f3f3f3;height:55px;width:288px;}
+.rp-3{font-size:12px;color:#333333;padding-top:33px;padding-left:30px;padding-bottom:10px;}
+.rp-4{font-size:10px;color:#8c8c8c;padding-left:30px;}
+.rp-6{padding-left:30px; padding-bottom:55px;}
+.rp-7{padding-left:110px; margin-bottom:12px;}
+.teip-1{height:309px;border:1px solid #ccc;}
+.teip-2{width:307px;height:309px;border-right:1px solid #ccc;}
+.teip-4,.rp-23{font-size:12px;color:#000;padding-top:0;}
+.teip-5{font-size:10px;color:#ccc;}
+.teip-9{font-size:10px;color:#fff; background:#f32f39;width:70px;height:20px; }
+.oou{border-right:0;}
+.miui{height:355px;border:1px solid #ccc;}
+.miui-1{width:308px; height:355px;border-right:1px solid #ccc;}
+.nkk-1{width:308px;height:309px;border-right:1px solid #ccc;}
+.nnk-2 a{font-size:12px;color:#000;padding-top:224px;}
+.hanb-1{width:309px;height:619px; border-right:1px solid #ccc;border-bottom:1px solid #ccc;}
+.hanb-2{width:307px;height:619px; background:#96F;}
+
