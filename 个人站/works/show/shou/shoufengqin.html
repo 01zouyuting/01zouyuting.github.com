@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	#box{
+		margin: 60px auto;
+		position: relative;
+		width: 800px;
+		height: 625px;
+		overflow: hidden;
+	}
+	#box li{
+		width: 800px;
+		float: left;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	#box img{
+		width: 100%;
+		height: 100%;
+		border:none;
+	}
+</style>
+<script src="js/yundonghanshu.js"></script>
+<script>
+	window.onload=function(){
+		var oUl=document.getElementById('box');
+		var aLi=oUl.children;
+		var res=80;
+		oUl.style.paddingLeft=res*(aLi.length-1)+'px';
+		for(var i=1; i<aLi.length;i++){
+			aLi[i].style.left=oUl.offsetWidth-res*(aLi.length-i)+'px';
+		}
+		for(var i=0; i<aLi.length;i++){
+			aLi[i].index=i;
+			aLi[i].onmouseover=function(){
+				for(var j=0; j<aLi.length;j++){
+					if(j<=this.index){
+						move(aLi[j],{
+							'left':j*res
+						},500);
+					}else{
+						move(aLi[j],{
+							'left':oUl.offsetWidth-res*(aLi.length-j)
+					},500);
+					}
+				}
+			}
+		}
+	}
+</script>
+<body>
+	<ul id="box">
+		<li><img src="img/9.jpg" alt="1"></li>
+		<li><img src="img/2.jpg" alt="2"></li>
+		<li><img src="img/3.jpg" alt="3"></li>
+		<li><img src="img/4.jpg" alt="4"></li>
+		<li><img src="img/14.jpg" alt="5"></li>
+	</ul>
+</body>
+</html>

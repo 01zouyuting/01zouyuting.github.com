@@ -1,0 +1,702 @@
+@charset "utf-8";
+/* CSS Document */
+/*顶部*/
+body{background:#1c1a25;}
+.box-q{
+	   width:100%;
+	   height:52px;
+	   background:url(../img/nav_bg.png);
+	   }
+.box-q .b1{
+		   width:980px;
+		   height:50px;
+		   margin:0 auto;
+		   }
+.b1 li{
+	   height:50px;
+	   line-height:50px;
+	   }
+.b1 li a{ 
+		 display:block;
+		 padding:0 20px 0 30px;
+		 font-size:12px;
+		 font-family:'Microsoft YaHei';
+		 }
+.b1 .one{
+		 width:100px;
+		 height:36px;
+		 background:url(../img/logo.png) no-repeat;
+		 border-right:1px solid #cecece;
+		 margin-top:3px;
+		 }
+.b1 .one1,.b1 .one2,.b1 .one3,.b1 .one4{
+										border-right:1px solid #cecece;
+										}
+.b1 li b{
+		 width:7px;
+		 height:6px;
+		 }
+.b1 li i{
+		 width:26px;
+		 height:24px;
+		 display:block;
+		 position:absolute;
+		 left:0;
+		 top:14px;
+		 }
+.b1 li a{
+		 position:relative;
+		 }
+.b1 li b,.b1 li i{
+				  background:url(../img/cyou_sprite.png);
+				  }
+.b1 a .on1{
+			background-position:-206px -148px;
+			position:absolute;
+			right:15px;
+			top:24px;
+		   }
+.b1 .on{
+		padding:0 28px 0 25px;
+		}
+.b1 .on-l{
+		  padding:0 30px;
+		  }
+.b1 a .on2{
+			background-position:0 -104px;
+		   } 
+.b1 a .on3{
+			background-position:-189px 0;
+		   } 
+.b1 a .on4{
+			background-position:-138px 0;
+		   } 
+/*导航*/
+.box-w{
+	   width:100%;
+	   height:100%;
+	   background:url(../img/con_bg.jpg) no-repeat -290px 0;
+	   }
+.box-e{
+	   width:35px;
+	   height:122px;
+	   background:url(../img/img.png);
+	   position:fixed;
+	   left:0;
+	   top:245px;
+	   }
+.box-a{
+	   width:1000px;
+	   height:551px;
+	   margin:0 auto;
+	   background:url(../img/header_main.jpg);
+	   position:relative;
+	   }
+.box-a .box1{
+			 width:190px;
+			 height:68px;
+			 background:url(../img/sprite.png);
+			 position:absolute;
+			 left:1px;
+			 top:20px;
+			 }
+.box-a .box2{
+			 width:760px;
+			 height:110px;
+			 padding-top:38px;
+			 opacity:0.8;
+			 }
+.box2 li{padding:0 14px;}
+.box2 li a{
+		   font-size:15px;
+		   color:#FFF; 
+		   }
+.box2 li.cl{
+			padding:0 0 0 8px;
+			}
+.box2 li span{
+			  font-size:8px;
+			  text-align:center;
+			  width:100%;
+			  display:block;
+			  }
+.box2 li:hover a{color:#0FF;}
+/*内容*/
+.box-s{
+	   width:1000px;
+	   height:413px;
+	   margin:0 auto;
+	   padding-bottom:33px;
+	   }
+.box-s .box-d{
+			  width:616px;
+			  height:413px;
+			  }
+.box-d .box11{
+			  width:616px;
+			  height:110px;
+			  }
+.box-d .box11 a{
+				background:url(../img/sprite.png) 0 200px;
+				display:block;
+				}
+.box11 .two{
+			width:215px;
+			height:110px;
+			}
+.box11 .two1,.box11 .two2,.box11 .two3,.box11 .two4{
+													width:100px;
+													height:110px;
+													}
+.box-d .box11 .two1{
+			 background-position:-215px -522px;
+			 }
+.box-d .box11 .two2{
+			 background-position:-315px -522px;
+			 }
+.box-d .box11 .two3{
+			 background-position:-415px -522px;
+			 }
+.box-d .box11 .two4{
+			 background-position:-515px -522px;
+			 }
+.box-d .box22{ position:relative;}
+.box-d .box22 i{
+				width:27px;
+				height:64px;
+				display:block;
+				background:url(../img/cyou_sprite.png);
+				}
+.box-d .box22 .box2{
+			 		background-position:-120px -26px;
+					position:absolute;
+					left:10px;
+					top:10px;
+			 		}
+.box-d .box22 .box3{
+			 		background-position:-120px -94px;
+					position:absolute;
+					left:10px;
+					top:82px;
+			 		}
+.box-s .box-f{
+			  width:384px;
+			  height:413px;
+			  }
+.box-f .one-a{
+			  width:368px;
+			  height:59px;
+			  padding:6px 0 0 16px;
+			  }
+.box-f .one-a .one-b{
+					 width:270px;
+			  		 height:45px;
+					 background:url(../img/sever.png);
+					 padding:6px 0 0 80px;
+					 }
+.one-a .one-b li{padding-bottom:5px;}
+.one-a .one-b a{
+				 color:#adb9e0;
+				 font-size:14px;
+				 }
+.one-a .one-b a span{
+					 color:#f00000;
+					 }
+.box-d{
+	   width:1000px;
+	   height:132px;
+	   margin:0 auto;
+	   }
+.box-d img{
+		   border:1px solid #433b4f;
+		   }
+.box-g{
+		width:381px;
+		height:40px;
+		background:#211c30;
+		border:2px solid #443b4f;
+		color:#a6b2d7;
+		font-size:12px;
+		line-height:40px;
+	  }
+.box-g a{
+	     color:#a6b2d7;
+		 position:relative;
+	     }
+.box-g a span{
+			  color:#f93d1a;
+			  text-decoration:underline;
+			  }
+.box-g li i{
+			 background:url(../img/sprite.png) no-repeat;
+			 display:block;
+			 width:27px;
+			 height:24px;
+			}
+.box-g li{
+		  padding:0 10px;
+		  }
+.box-g .box-{
+			 padding:0 38px 0 5px;
+			 }
+.box-g li.cc{
+			  padding-right:0;
+		      }
+.box-g li .weib{
+				width:14px;
+				height:15px;
+				background-position:-79px -165px;
+				position:absolute;
+				right:-16px;
+				top:0;
+				}
+.box-g li .weix{
+				background-position:-250px -51px;
+				}
+.box-g li .weib2{
+				background-position:-293px -51px;
+				}
+.box-g li .wei{
+				background-position:-339px -51px;
+				}
+.box-g .weix,.box-g .weib2,.box-g .wei{
+									   margin-top:8px;
+									   }
+.one-d .one-1{
+			  width:381px;
+			  height:56px;
+			  background:url(../img/sprite.png) 0 -322px;
+			  line-height:58px;
+			  border-bottom:1px solid #000;
+			  }
+.one-d .one-1 a{
+				font-family:'Microsoft YaHei';
+				font-size:14px;
+				color:#FFF;
+				width:95px;
+				height:55px;
+				line-height:55px;
+				text-align:center;
+				}
+.one-d .one-1 a:hover{
+					   color:#FFF;
+					   background:url(../img/sprite.png) 0 -105px;
+					   height:57px;
+					   }
+.one-d .one-2{
+			  width:367px;
+			  height:232px;
+			  background:#322e3f;
+			  padding:17px 0 0 17px;
+			  }
+.one-2 dt a{
+			font-size:15px;
+			color:#fe4100;
+			font-family:'Microsoft YaHei';
+			background:url(../img/sprite.png) 0 -453px;
+			width:348px;
+			height:34px;
+			display:block;
+			line-height:34px;
+			text-align:center;
+			}
+.one-2 dd a{
+			font-size:14px;
+			color:#9ca7ca;
+			}
+.one-2 dd:hover a{color:#0FF;}
+.one-2 dd{
+		  padding-top:14px;
+		  }
+.box-h{
+	   width:1000px;
+	   height:350px;
+	   padding:29px 0;
+	   margin:0 auto;
+	   }
+.box-h .box-1{
+			  width:656px;
+			  height:345px;
+			  border:1px solid #433b4f;
+			  }
+.box-h .box-1 .one1{
+					width:100%;
+					height:58px;
+					background:url(../img/sprite.png) 0 -385px;
+					}
+.box-h .box-1 .one1 a{
+					  width:131px;
+					  height:58px;
+					  display:block;
+					  line-height:58px;
+					  text-align:center;
+					  color:#FFF;
+					  font-family:'Microsoft YaHei';
+					  position:relative;
+					  }
+.box-1 .one1 a div{
+				   width:656px;
+				   height:287px;
+				   }
+.box-1 .one1 .11{
+				 position:absolute;
+				 left:0;
+				 top:58px;
+				}
+.box-1 .one1 .aa{
+				 position: absolute;
+    			 left: -131px;
+				 top:58px;
+				 display:none;
+				 }
+.box-1 .one1 .ff{
+				 position: absolute;
+    			 left: -262px;
+				 top:58px;
+				 display:none;
+				 }
+.box-1 .one1 .zz{
+				 position: absolute;
+    			 right:-131px;
+				 top:58px;
+				 display:none;
+				 }
+.box-1 .one1 .kk{
+				 position: absolute;
+    			 right:0;
+				 top:58px;
+				 display:none;
+				 }
+.box-1 .one1 a:hover{background:url(../img/sprite.png) -98px -104px;}
+.box-1 .one1 .sss:hover .11{
+							display:block;
+							}
+.box-1 .one1 .shz:hover .aa{
+							display:block;
+							}
+.box-1 .one1 .mfz:hover .ff{
+							display:block;
+							}
+.box-1 .one1 .zs:hover .zz{
+							display:block;
+							}
+.box-1 .one1 .ck:hover .kk{
+							display:block;
+							}
+.box-h .box-2{
+			   width:322px;
+			   height:345px;
+			   padding-left:20px;
+			  }
+.box-h .box-2 .boxx{
+					width:131px;
+					height:43px;
+					}
+	 .boxx .x1{
+				 width:38px;
+				 height:28px;
+				 display:block;
+				 background:url(../img/sprite.png) -270px -165px;
+				 }
+	 .boxx .x2{
+				 font-size:18px;
+				 color:#f3ca90;
+				 line-height:28px;
+				 padding-left:12px;
+				 }
+.box-2 .six{
+			width:319px;
+			height:149px;
+			border:1px solid #433b4f;
+			position:relative;
+			margin-bottom:7px;
+			}
+.box-2 .six .six1{
+				   width:319px;
+				   height:36px;
+				   position:absolute;
+				   left:0;
+				   bottom:0;
+				  }
+.box-2 .six .six1 .six2{
+						width:319px;
+				   		height:36px;
+						background:#000;
+						opacity:0.4;
+						}
+.box-2 .six .six1 p{
+					color:#FFF;
+					position:absolute;
+				    left:5px;
+				    bottom:10px;
+					font-size:14px;
+					}
+.box-2 .vv{
+		  font-size:12px;
+		  font-family:'Microsoft YaHei';
+		  color:#a6b2d8;
+		  width:283px;
+		  height:25px;
+		  background:url(../img/sprite.png) 0 -758px;
+		  line-height:25px;
+		  padding:0 9px 0 27px;
+		  margin-top:5px;
+		  display: block;
+		  }
+.box-2 li:hover a{color:#0FF;}
+.box-j{
+	   width:1000px;
+	   height:800px;
+	   margin:0 auto;
+	   }		
+.box-j .box-z{
+			  width:214px;
+			  height:775px;
+			  padding-right:18px;
+			  }
+.box-j .box-z dl{
+				 width:214px;
+				 height:190px;
+				 background:url(../img/sprite.png) -686px -78px;
+				 }
+.box-j .box-z dt{
+				 width:214px;
+				 height:45px;
+				 font-size:16px;
+				 color:#dbca90;
+				 line-height:45px;
+				 text-align:center;
+				 padding-bottom:8px;
+				 }
+.box-j .box-z dd a{
+				   font-size:14px;
+				   color:#9587ab;
+				   }
+.box-j .box-z dd a:hover{color:#0FF;}
+.box-j .box-z dd.one{
+					 padding:14px 0 0 22px;
+					 }
+.box-j .box-z dd.two{
+					 padding:14px 0 0 28px;
+					 }
+.box-z .six-c{
+			  width:214px;
+			  height:302px;
+			  padding:24px 0 20px;
+			  }
+.box-z .six-c .six-x{
+					  width:206px;
+					  height:32px;
+					  margin:5px auto 0;
+					  background:url(../img/sprite.png) -695px 0;
+					  color:#b1a1ca;
+					  font-size:15px;
+					  line-height:32px;
+					  text-align:center;
+					  }
+.box-z .six-v{
+			  width:214px;
+			  height:265px;
+			  background:url(../img/examen.jpg);
+			  }
+.box-x{
+	   width:422px;
+	   height:736px;
+	   padding-right:20px;
+	   }
+.box-x .x1{
+		   background-position:-395px -164px;
+		   }
+.box-x .boxz{
+	   		  width:422px;
+			  height:302px;
+	   		  border:1px solid #433b4f;
+			  margin:12px 0 40px;
+	   		  }
+.box-x .boxz .one1{
+					width:100%;
+					height:46px;
+					border-bottom:1px solid #433b4f;
+					}
+.box-x .boxz .one1 a{
+					 width:104px;
+					 height:46px;
+					 border-left:1px solid #433b4f;
+					 display:block;
+					 color:#a295b7;
+					 font-size:12px;
+					 line-height:46px;
+					 text-align:center;
+					 font-family:'Microsoft YaHei';
+					 }
+.box-x .boxz .one1 .op{
+					   border-left:none;
+					   }
+.box-x .boxz .one1 a:hover{
+						   color:#FFF;
+						   background:#322b3c;
+						   height:47px;
+						   }
+.box-x .boxz .one2{
+					width:407px;
+					height:232px;
+					background:#322b3c;
+					padding:23px 0 0 15px;
+				   }
+.boxz .one2 .on1{
+				 border:1px solid #433b4f;
+				 margin-right:18px;
+				 }
+.box-x .boxz .one2 li{
+					   padding-top:12px;
+					  }
+.box-x .boxz .one2 .mn{
+					   padding-top:0;
+					   }
+.box-x .boxz .one2 a{
+					 font-size:12px;
+					 font-family:'Microsoft YaHei';
+					 color:#a295b7;
+					 }
+.box-x .boxz .one2 a:hover{color:#0FF;}
+.box-x .kl{
+		   background-position:-548px -164px;
+		   }
+.box-k{
+	   width:324px;
+	   height:735px;
+	   }
+.box-c .yu{
+		   background-position:-480px -164px;
+		   }
+.box-c .boxv{
+			 width:320px;
+			 height:303px;
+			 border:1px solid #4b3f5c;
+			 margin:12px 0 39px;
+			 }
+.box-c .boxv li{
+				width:285px;
+				height:58px;
+				border-bottom:1px dashed #4b3f5c;
+				margin:0 auto;
+				line-height:26px;
+				}
+.box-c .boxv .z1{
+				 width:70px;
+				 height:26px;
+				 font-size:14px;
+				 color:#FFF;
+				 line-height:26px;
+				 text-align:center;
+				 position:relative;
+				 background:#594f67;
+				 margin-top:16px;
+				 margin-right:26px;
+				 }
+.box-c .boxv .z1 i{
+				   width:7px;
+				   height:10px;
+				   position:absolute;
+				   right:-7px;
+				   top:7px;
+				   background:url(../img/ajs.png);
+				   }
+.box-c .boxv a{
+			   font-size:14px;
+			   color:#9587ab;
+			   margin-top:15px;
+			   font-family:'Microsoft YaHei';
+			   }
+.box-c .boxv a:hover{color:#0FF;}
+.box-c .boxv .zh{border-bottom:none;}
+.box-c .boxv .zlz{
+				  width:279px;
+				  height:39px;
+				  display:block;
+				  border:3px solid #4b3f5c;
+				  font-size:21px;
+				  color:#8d80a1;
+				  line-height:39px;
+				  text-align:center;
+				  margin-top:5px;
+				  }
+.box-k .boxm .one1 a{
+					 width:104px;
+					 height:46px;
+					 border-left:1px solid #433b4f;
+					 display:block;
+					 color:#a295b7;
+					 font-size:12px;
+					 line-height:46px;
+					 text-align:center;
+					 font-family:'Microsoft YaHei';
+					 }
+.box-k .boxm .one1{
+				   width:100%;
+				   height:46px;
+				   border-bottom:1px solid #433b4f;
+				   }
+.boxm{
+	  width:322px;
+	  height:307px;
+	  border:1px solid #433b4f;
+	  margin-top:12px;
+	  }
+.box-k .boxm .one1 .op{
+					   border-left:none;
+					   }
+.box-k .boxm .one1 a:hover{
+						   color:#FFF;
+						   background:#322b3c;
+						   height:47px;
+						   }
+.box-k .gl{
+		   background-position:-324px -167px;
+		   }
+.box-k .boxm img{
+				 padding:23px 11px 0 8px;
+				 }
+.box-o{
+	   width:880px;
+	   height:120px;
+	   font-size:16px;
+	   color:#908c9b;
+	   text-align:center;
+	   margin:0 auto;
+	   font-family:'Microsoft YaHei';
+	   }
+.box-o div{
+		   width:880px;
+		   height:18px;
+		   background:url(../img/game_anc.jpg) -5px 18px;
+		   margin-bottom:5px;
+		   }
+.box-o p{
+		 margin-top:15px;
+		 }
+/*底部*/
+.box-l{
+	   width:100%;
+	   height:109px;
+	   background:#181818;
+	   }
+.box-l .on-q{
+			 width:1000px;
+			 height:109px;
+			 margin:0 auto;
+			 }
+.box-l .on-w{
+			 width:850px;
+			 height:55px;
+			 margin:0 auto;
+			 padding-top:18px;
+			 font-size:12px;
+			 color:#767676;
+			 }
+.box-l .on-w p{
+			   padding-top:10px;
+			   }
+.box-l .on-w .cc{
+				 color:#535353;
+				}

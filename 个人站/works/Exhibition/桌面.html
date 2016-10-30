@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	*{ padding:0; margin:0; list-style:none;}
+	canvas{ margin:0 auto; display:block; background:#EEE;}
+</style>
+<script>
+	function rnd(n,m){
+		return parseInt(Math.random()*(m-n)+n);	
+	}
+
+	window.onload=function(){
+		var oC=document.querySelector('canvas');
+		var gd=oC.getContext('2d');
+		var oCw=document.documentElement.clientWidth;
+		var oCh=document.documentElement.clientHeight;
+		oC.width=oCw;
+		oC.height=oCh;
+		
+		var w=1;
+		var h=1;
+		
+		var N=5;
+		var aPoint=[
+				/*{
+				 x:rnd(0,oCw-w),
+				 y:rnd(0,oCh-h),
+				 speedX:5,
+				 speedy:-3
+				}*/
+			];
+			
+		var LEN=20;
+		var oldArr=[] 
+		//[[{},{},{},{},{}],[{},{},{},{},{}]]
+
+		for(var i=0; i<N;i++){
+			aPoint.push({
+				x:rnd(0,oCw-w),
+				y:rnd(0,oCh-h),
+				speedX:rnd(-10,10),
+				speedY:rnd(-10,10)
+			});
+		}
+		
+		setInterval(function(){
+			gd.clearRect(0,0,oC.width,oC.height);
+			for(var i=0; i<aPoint.length;i++){
+				aPoint[i].x+=aPoint[i].speedX;
+				aPoint[i].y+=aPoint[i].speedY;
+				
+				if(aPoint[i].x<0){
+					aPoint[i].x=0;
+					aPoint[i].speedX*=-1;
+				}
+				if(aPoint[i].x>oCw-w){
+					aPoint[i].x=oCw-w;
+					aPoint[i].speedX*=-1;
+				}
+				if(aPoint[i].y<0){
+					aPoint[i].y=0;
+					aPoint[i].speedY*=-1;
+				}
+				if(aPoint[i].y>oCh-h){
+					aPoint[i].y=oCh-h;
+					aPoint[i].speedY*=-1;
+				}
+				
+				
+				createRect(aPoint[i]);		
+			}
+			
+			//连成线
+			gd.beginPath();
+			gd.moveTo(aPoint[0].x,aPoint[0].y);
+			for(var i=1;i<aPoint.length;i++){
+				gd.lineTo(aPoint[i].x,aPoint[i].y);
+			}
+			gd.closePath();
+			gd.stroke();
+			
+			//保存线
+			var arr=[];
+			for(var i=0; i<aPoint.length;i++){
+				arr[i]={
+					x:aPoint[i].x,
+					y:aPoint[i].y
+				};
+			};
+			
+			oldArr.push(arr);
+			if(oldArr.length>LEN){
+				oldArr.shift();	
+			}
+			
+			//画影子
+			for(var i=0; i<oldArr.length;i++){
+				gd.beginPath();
+				gd.moveTo(oldArr[i][0].x,oldArr[i][0].y);
+				var scale=i/oldArr.length;
+				gd.strokeStyle='rgba(0,0,0,'+scale+')';
+				
+				for(var j=1;j<oldArr[i].length;j++){
+					
+					gd.lineTo(oldArr[i][j].x,oldArr[i][j].y);
+				}
+				gd.closePath();
+				gd.stroke();
+			}
+
+		},16);
+		
+		
+		function createRect(oPoint){
+			gd.fillRect(oPoint.x,oPoint.y,w,h);	
+		}
+	};
+</script>
+</head>
+
+<body>
+	<canvas></canvas>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
